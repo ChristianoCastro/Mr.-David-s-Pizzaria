@@ -1,0 +1,475 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 200vh; /* 100% da altura da viewport */
+    background: linear-gradient(to bottom, #99021b 20%, #fafafa 49% ); /* Gradiente linear */
+}
+
+
+#PRIV p {
+    font-weight: bold; /* Adicione negrito */
+
+    font-size: 50px;
+    margin-bottom: 20px;
+    color:#fafafa !important;
+    margin-top: 70px;
+    margin-left: 300px;
+}
+
+#text p {
+    font-weight: bold; /* Adicione negrito */
+
+    font-size: 16px;
+    margin-bottom: 20px;
+    color:#000 !important;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+#col p {
+    font-weight: bold; /* Adicione negrito */
+
+    font-size: 22px;
+    margin-bottom: 20px;
+    color:#000 !important;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+#text2 p {
+    font-weight: bold; /* Adicione negrito */
+
+    font-size: 16px;
+    margin-bottom: 20px;
+    color:#000 !important;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+
+#uso p {
+    font-weight: bold; /* Adicione negrito */
+
+    font-size: 22px;
+    margin-bottom: 20px;
+    color:#000 !important;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+#text3 p {
+    font-weight: bold; /* Adicione negrito */
+
+    font-size: 16px;
+    margin-bottom: 20px;
+    color:#000 !important;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+#comp p {
+    font-weight: bold; /* Adicione negrito */
+
+    font-size: 22px;
+    margin-bottom: 20px;
+    color:#000 !important;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+#text4 p {
+    font-weight: bold; /* Adicione negrito */
+
+    font-size: 16px;
+    margin-bottom: 20px;
+    color:#000 !important;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.container {
+    position: relative;
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 10 auto; /* Centralizar na tela */
+    padding: 20px;
+}
+
+#logo-container {
+    position: absolute;
+    top: 20px;
+    left: 1px;
+}
+
+#logo-container img {
+    width: 75px; /* Largura desejada para a imagem */
+    height: 93px; /* Altura desejada para a imagem */
+    margin-left: 80px;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Alinhar os itens à direita */
+    align-items: center;
+    margin-top: 20px; /* Adicione espaço acima do menu */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Alinhar à direita */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px; /* Ajuste a margem à direita conforme necessário para mover os itens para a direita */
+}
+
+nav li {
+
+    margin-left: 190px;
+    margin-right: 0px;
+}
+
+nav a {
+    font: 14px "Poppins", sans-serif;
+    color: #FFFFFF; /* Cor branca para o texto */
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adicionada transição para a cor do texto */
+    letter-spacing: 1px; /* Espaçamento entre as letras */
+    margin-bottom: 5px; /* Espaçamento entre a palavra e a linha abaixo */
+}
+
+
+
+nav a:hover {
+    color: #000; /* Cor preta para o texto no hover */
+    text-decoration: none; /* Remover sublinhação no hover */
+    background-color: transparent; /* Fundo transparente no hover */
+}
+
+nav a:hover:after {
+    width: 100%; /* Expandir a linha no hover */
+    margin-top: 5px; /* Espaçamento entre o texto e a linha no hover */
+}
+
+
+
+.pedido-btn {
+    font: 16px "Poppins", sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000; /* Cor do retângulo preto */
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: 12px;
+    margin-right: 30px; /* Movi o botão para o canto superior direito */
+    letter-spacing: 1px; /* Espaçamento entre as letras */
+    margin-bottom: 10px; /* Espaçamento entre a palavra e a linha abaixo */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adicionada transição para a cor do texto */
+}
+
+.pedido-btn:hover {
+    background-color: #FFFF00; /* Cor amarela no hover */
+    color: #000; /* Cor preta para o texto no hover */
+}
+
+.pedido-btn:after {
+    display: none; /* Remover a linha no botão "FAÇA SEU PEDIDO" */
+}
+
+/* Adicione a seguinte regra para tornar os elementos móveis */
+#movable-container {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
+/* Adicione este CSS para estilizar o banner */
+
+
+
+#Peca p {
+
+    font-size: 45px; /* Tamanho da fonte ajustado para 45px */
+    margin-left: 34px;
+    margin-top: 20px;
+    font-family: 'Barlow Semi Condensed', sans-serif; /* Fonte personalizada com fallback para sans-serif */
+    color: #FFFFFF; /* Cor do texto */
+    font-weight: bold; /* Adicione negrito */
+    justify-content: space-between;
+
+}
+
+#Promocoes p {
+
+    font-size: 45px; /* Tamanho da fonte ajustado para 45px */
+    margin-left: 837px;
+    margin-top: -130px;
+    font-family: 'Barlow Semi Condensed', sans-serif; /* Fonte personalizada com fallback para sans-serif */
+    color: #FFFFFF; /* Cor do texto */
+    font-weight: bold; /* Adicione negrito */
+    justify-content: space-between;
+
+}
+
+.yellow-line {
+    margin-left: 410px;
+    margin-top: -70px;
+    width: 400px; /* Ajuste a largura da linha conforme necessário */
+    height: 3px; /* Ajuste a altura da linha conforme necessário */
+    background-color: #ffd000; /* Cor da linha amarela */
+}
+
+
+
+/* Adicione este CSS para estilizar as imagens */
+#image-container {
+    display: flex;
+    align-items: flex-start; /* Alinhar as imagens pela extremidade superior */
+}
+
+#image-container img {
+
+    margin-right: 20px; /* Adicionar um espaçamento entre as imagens (opcional) */
+    border-radius: 10px; /* Borda redonda */
+
+}
+
+#image-container1-1 {
+
+    margin-top: -580px; /* Ajuste a margem superior conforme necessário */
+    margin-left: 405px;
+    border-radius: 20px !important; /* Borda redonda */
+
+}
+
+#image-container1-1 img {
+
+    margin-right: 20px; /* Adicionar um espaçamento entre as imagens (opcional) */
+    border-radius: 10px; /* Borda redonda */
+
+}
+
+#image-container1-2 {
+
+    margin-top: 30px; /* Ajuste a margem superior conforme necessário */
+    margin-left: 405px;
+    border-radius: 20px !important; /* Borda redonda */
+
+}
+
+#image-container1-2 img {
+
+    margin-right: 20px; /* Adicionar um espaçamento entre as imagens (opcional) */
+    border-radius: 10px; /* Borda redonda */
+
+}
+
+#image-container1-3 {
+
+    margin-top: -190px; /* Ajuste a margem superior conforme necessário */
+    margin-left: 774px;
+    border-radius: 20px !important; /* Borda redonda */
+
+}
+
+#image-container1-3 img {
+
+    margin-right: 20px; /* Adicionar um espaçamento entre as imagens (opcional) */
+    border-radius: 10px; /* Borda redonda */
+
+}
+
+
+#image-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40vh;
+    padding: 20px;
+    position: relative; /* Adicionado posicionamento relativo ao container */
+}
+
+#image-container2 img {
+    margin-right: 55px;
+    border-radius: 10px;
+    margin-left: -20px;
+    width: 200px;
+    height: auto;
+    border: 10px solid #ffffff; /* Borda branca */
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), 0 0 15px rgba(255, 255, 255, 0.7); /* Sombra escura */
+}
+
+#Pizza-Salgada p {
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    top: 70%; /* Ajuste a posição vertical conforme necessário */
+    font-size: 16px "Poppins", sans-serif;
+    margin-left: 45px;
+    margin-top: 80px;
+    color: #0f0f0f;
+}
+
+#Pizza-Doce p {
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    top: 70%; /* Ajuste a posição vertical conforme necessário */
+    font-size: 16px "Poppins", sans-serif;
+    margin-left: 295px;
+    margin-top: 80px;
+    color: #0f0f0f;
+}
+
+#Pizza-Dois p {
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    top: 70%; /* Ajuste a posição vertical conforme necessário */
+    font-size: 16px "Poppins", sans-serif;
+    margin-left: 505px;
+    margin-top: 80px;
+    color: #0f0f0f;
+}
+
+#Pizza-Monte p {
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    top: 70%; /* Ajuste a posição vertical conforme necessário */
+    font-size: 16px "Poppins", sans-serif;
+    margin-left: 747px;
+    margin-top: 80px;
+    color: #0f0f0f;
+}
+footer {
+    background-color: #000; /* Cor de fundo preta */
+    color: #fff; /* Cor do texto branca */
+    text-align: center;
+    padding: 40px;
+    margin-top: -10px ;
+    border-radius: 2px;
+}
+
+#Torne p {
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    top: 70%; /* Ajuste a posição vertical conforme necessário */
+    font-size: 25px;
+    font-family:'Poppins', sans-serif;
+    margin-left: 40px;
+    margin-top: 230px;
+    color: #fafafa;
+}
+
+
+
+.contato-btn {
+    position: absolute;
+    font: 16px "Poppins", sans-serif;
+    color: #000;
+    text-decoration: none;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    width: 190px !important;
+    cursor: pointer;
+    margin-top: 2520px; /* Ajuste a posição vertical conforme necessário */
+    margin-left: 930px;
+    margin-right: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adicionada transição para a cor do texto e fundo */
+}
+
+.contato-btn:hover {
+    background-color: #fafafa; /* Cor do retângulo branco */
+
+}
+
+
+.contato-btn:after {
+    display: none; /* Remover a linha no botão "FAÇA SEU PEDIDO" */
+}
+
+
+.kaushan-script-regular {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: normal;
+    color: #fafafa; /* Cor do texto branca */
+
+  }
+
+  .kaushan-script-regular1 {
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-style: normal;
+    color: #fafafa; /* Cor do texto branca */
+
+  }
+
+  .linha-vertical {
+    height: 100px; /* Altura da linha vertical (ajuste conforme necessário) */
+    width: 1px; /* Largura da linha vertical */
+    background-color: #fafafa; /* Cor da linha (preto no exemplo) */
+    margin: 0 20px; /* Espaçamento à esquerda e à direita da linha (ajuste conforme necessário) */
+    margin-left: 320px;
+    margin-top: -95px;
+}
+
+#HOMEE p {
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    top: 70%; /* Ajuste a posição vertical conforme necessário */
+    font-size: 16px "Poppins", sans-serif;
+    margin-left: 370px;
+    margin-top: 335px;
+    color: #fafafa;
+}
+  
+#SOBREE p {
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    top: 70%; /* Ajuste a posição vertical conforme necessário */
+    font-size: 16px "Poppins", sans-serif;
+    margin-left: 450px;
+    margin-top: 335px;
+    color: #fafafa;
+}
+
+#FRANQUIAA p {
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    top: 70%; /* Ajuste a posição vertical conforme necessário */
+    font-size: 16px "Poppins", sans-serif;
+    margin-left: 570px;
+    margin-top: 335px;
+    color: #fafafa;
+}
+
+
+#TERMOS p {
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    top: 70%; /* Ajuste a posição vertical conforme necessário */
+    font-size: 16px "Poppins", sans-serif;
+    margin-left: 670px;
+    margin-top: 335px;
+    color: #fafafa;
+}
+
+#POLITICA p {
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    top: 70%; /* Ajuste a posição vertical conforme necessário */
+    font-size: 16px "Poppins", sans-serif;
+    margin-left: 370px;
+    margin-top: 380px;
+    color: #fafafa;
+}
+
+
